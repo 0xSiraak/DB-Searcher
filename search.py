@@ -10,3 +10,4 @@ user = input(Fore.GREEN + "\n[+] - Username, Email, IP, UUID : ")
 
 print(Fore.GREEN + "[+] - Results : \n")
 os.system("cat /databases/* | grep " + user)
+print(Fore.CYAN + "[+] - Finished research...")
